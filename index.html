@@ -6,7 +6,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
 	                       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-												 crossorigin="anonymous">
+						   crossorigin="anonymous">
 												 
 	<link rel="stylesheet" href="assets/css/style.css">
 	<script src="https://code.jquery.com/jquery.js"></script>
@@ -26,32 +26,33 @@
 <div class="col-sm-6">	
 
 	<form role="form">
-  <div class="form-group">
-  <label for="tname-input">Train Name :</label>
-  <input class="form-control" id="tname-input" type="text">
+    <div class="form-group">
+    <label for="tname-input"><p2>Train Name : </p2></label>
+    <input class="form-control" id="tname-input" type="text">
 	</div>
 
 	<div class="form-group">
-	<label for="tdestination-input">Destination :</label>
+	<label for="tdestination-input"><p2>Destination : </p2></label>
 	<input class="form-control" id="tdestination-input" type="text">
 	</div>
 				
 		
 	<div class="form-group">
-	<label for="ttime-input">First Train Time (HH:MM)</label>
+	<label for="ttime-input"><p2>First Train Time (HH:MM) </p2></label>
 	<input class="form-control" id="ttime-input" type="number">
 	</div>
 
 
 	<div class="form-group">
-  <label for="tfrequency-input">Frequency of departure : </label>
-  <input class="form-control" id="tfrequency-input" type="number">
+    <label for="tfrequency-input"><p2>Frequency of departure : </p2></label>
+    <input class="form-control" id="tfrequency-input" type="number">
 	</div>
-	 
-	<button class="btn btn-default" id="2firedbGO" type="submit">
-	 Submit to DB
-	</button>
 	</form>
+
+	<button class="btn btn-default" id="2firedbGO" type="submit">
+	Add telegraph entry! 
+	<br></button>
+	
 		
 	</div></div></div>
 	
@@ -60,18 +61,19 @@
 	<div class="col-sm-3"></div>
 	<div class="col-sm-6">	
 		
-<thead>
-<tr><th>Firstname</th>
-		<th>Lastname</th>
-		<th>Email</th></tr>
-        </thead><tbody>
+	<div class="item-list">
+	</div>
 
+<br><tbody>
 <div id="full-member-list">
- </div></tbody>
- </div></div></div>
- </body>
+</div></tbody>
+
+
+ <div class="col-sm-3">
+ </div></div></div></div>
 
 
 
+</body>
 <script src="assets/javascript/core.js"></script> 
 </html>

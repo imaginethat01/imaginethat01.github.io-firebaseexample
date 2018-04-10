@@ -1,12 +1,23 @@
 
 
+ .item-list   { background-color: lightblue; 
+                 width: 555px;
+                 padding: 10px;
+                 border: 2px solid gray;
+                 margin: 0; }
 
 .jumbotron {background-color: sandybrown;
-                text-align: center; }   
+                  text-align:   center; }   
                 
    
                 
-body { background-image: url('images/trainbackground.png') 
+body { background-image: url('images/trainbackground.png');
+       background-size: cover;
+       height: auto;
+       width: auto;
+       position: relative;
+       top: 5%; 
+    
 } 
 
 
@@ -18,21 +29,25 @@ tbody {
 }
 
   td, th {
+    background-color: linen;   
     border: 1px solid #ddd;
     padding: 8px;
     height: 10%;
     width: 50%;
 }
 
- tr:nth-child(even){background-color: #f2f2f2;}
+tr:nth-child(even){background-color: #bba6a6;}
 
- tr:hover {background-color: #ddd;}
+tr:hover {background-color: #ddd;}
 
  thead {
-    height: 10%;
-    width: 50%; 
-    padding-top: 12px;
-    padding-bottom: 12px;
+  
     text-align: left;
     background-color: #4CAF50;
     color: white; }
+
+    p2 { color: beige;
+         border-color: #333;
+         font-size: 1.5em; 
+         text-align: center;
+        background-color: #333; } 
